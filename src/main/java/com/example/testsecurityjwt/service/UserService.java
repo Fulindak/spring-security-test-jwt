@@ -32,7 +32,7 @@ public class UserService implements UserDetailsService {
     }
 
     @Autowired
-    public void setRoleSevice(RoleService roleService) {
+    public void setRoleService(RoleService roleService) {
         this.roleService = roleService;
     }
 
