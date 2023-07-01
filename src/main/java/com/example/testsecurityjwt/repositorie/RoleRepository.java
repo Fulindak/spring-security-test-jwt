@@ -1,6 +1,6 @@
-package com.example.testsecurityjwt.repositories;
+package com.example.testsecurityjwt.repositorie;
 
-import com.example.testsecurityjwt.entities.Role;
+import com.example.testsecurityjwt.entitie.Role;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

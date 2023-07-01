@@ -1,4 +1,4 @@
-package com.example.testsecurityjwt.controllers;
+package com.example.testsecurityjwt.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

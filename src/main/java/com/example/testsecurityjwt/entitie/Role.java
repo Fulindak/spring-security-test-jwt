@@ -1,4 +1,4 @@
-package com.example.testsecurityjwt.entities;
+package com.example.testsecurityjwt.entitie;
 
 
 import jakarta.persistence.*;
