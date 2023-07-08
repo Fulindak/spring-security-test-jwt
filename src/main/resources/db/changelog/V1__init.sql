@@ -1,13 +1,13 @@
 create table users (
-                       id                    bigserial,
+                       id                    bigint,
                        username              varchar(30) not null unique,
                        password              varchar(80) not null,
-                       email                 varchar(50) unique,
+                       email                 varchar(50) not null unique,
                        primary key (id)
 );
 
 create table roles (
-                       id                    serial,
+                       id                    int,
                        name                  varchar(50) not null,
                        primary key (id)
 );
