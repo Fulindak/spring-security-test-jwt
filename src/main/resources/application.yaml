@@ -16,3 +16,13 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+    enabled: true
+    liquibase-schema: public
+  main:
+    allow-circular-references: true
+
