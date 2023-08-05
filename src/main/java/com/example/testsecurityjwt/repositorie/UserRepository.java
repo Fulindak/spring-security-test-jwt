@@ -1,6 +1,6 @@
 package com.example.testsecurityjwt.repositorie;
 
-import com.example.testsecurityjwt.entitie.User;
+import com.example.testsecurityjwt.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

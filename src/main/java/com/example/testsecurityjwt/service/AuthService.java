@@ -4,7 +4,7 @@ import com.example.testsecurityjwt.dto.JwtRequest;
 import com.example.testsecurityjwt.dto.JwtResponse;
 import com.example.testsecurityjwt.dto.RegistrationUserDto;
 import com.example.testsecurityjwt.dto.UserDto;
-import com.example.testsecurityjwt.entitie.User;
+import com.example.testsecurityjwt.entity.User;
 import com.example.testsecurityjwt.exception.AppError;
 import com.example.testsecurityjwt.util.JwtTokenUtils;
 import lombok.RequiredArgsConstructor;

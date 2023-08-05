@@ -9,8 +9,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/testdb
-    username: 
-    password: 
+    username: danila
+    password: 200120
   jpa:
     show-sql: true
     properties:
@@ -18,7 +18,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: none
-
   liquibase:
     change-log: db/changelog/db.changelog-master.yaml
     enabled: true
