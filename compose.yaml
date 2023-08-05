@@ -3,8 +3,8 @@ services:
     image: 'postgres:13.3'
     environment:
       - 'POSTGRES_DB=testdb'
-      - 'POSTGRES_PASSWORD=200120'
-      - 'POSTGRES_USER=danila'
+      - 'POSTGRES_PASSWORD='
+      - 'POSTGRES_USER='
     volumes:
       - .:/docker-entrypoint-initdb.d
     ports:
