@@ -1,4 +1,4 @@
-package com.example.testsecurityjwt.repositorie;
+package com.example.testsecurityjwt.repository;
 
 import com.example.testsecurityjwt.entity.User;
 import org.springframework.data.repository.CrudRepository;

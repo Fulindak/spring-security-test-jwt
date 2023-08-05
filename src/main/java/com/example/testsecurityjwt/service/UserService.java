@@ -2,7 +2,7 @@ package com.example.testsecurityjwt.service;
 
 import com.example.testsecurityjwt.dto.RegistrationUserDto;
 import com.example.testsecurityjwt.entity.User;
-import com.example.testsecurityjwt.repositorie.UserRepository;
+import com.example.testsecurityjwt.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

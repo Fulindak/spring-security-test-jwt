@@ -1,7 +1,7 @@
 package com.example.testsecurityjwt.service;
 
 import com.example.testsecurityjwt.entity.Role;
-import com.example.testsecurityjwt.repositorie.RoleRepository;
+import com.example.testsecurityjwt.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
